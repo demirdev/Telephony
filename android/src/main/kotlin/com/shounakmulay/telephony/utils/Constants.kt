@@ -16,7 +16,7 @@ object Constants {
 
 
   // Permissions
-  val SMS_PERMISSIONS = listOf(Manifest.permission.READ_SMS, Manifest.permission.SEND_SMS, Manifest.permission.RECEIVE_SMS)
+  val SMS_PERMISSIONS = listOf(Manifest.permission.RECEIVE_SMS)
   val PHONE_PERMISSIONS = listOf(Manifest.permission.READ_PHONE_STATE, Manifest.permission.CALL_PHONE)
   val SERVICE_STATE_PERMISSIONS = listOf(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.READ_PHONE_STATE)
 
